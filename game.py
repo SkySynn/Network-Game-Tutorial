@@ -8,7 +8,7 @@ class Player():
     def __init__(self, startx, starty, color=(255,0,0)):
         self.x = startx
         self.y = starty
-        self.velocity = 2
+        self.velocity = 5
         self.color = color
 
     def draw(self, g):
